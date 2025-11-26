@@ -1,0 +1,13 @@
+/* UI ONLY — no backend */
+{
+  "root": true,
+  "extends": ["next/core-web-vitals", "eslint:recommended"],
+  "rules": {
+    "no-unused-vars": "warn"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  }
+}
