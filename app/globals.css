@@ -1,0 +1,23 @@
+/* UI ONLY — no backend */
+/* Tailwind base + our tokens */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../styles/tokens.css";
+
+html,
+body,
+#__next {
+  height: 100%;
+}
+
+/* Simple skeleton tones */
+.skeleton {
+  @apply animate-pulse bg-gray-200 rounded;
+}
+
+/* Utility for empty state */
+.empty-state {
+  @apply border-2 border-dashed border-slate-200 p-6 rounded text-center;
+}
