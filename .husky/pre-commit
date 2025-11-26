@@ -1,0 +1,6 @@
+/* UI ONLY — no backend */
+#!/usr/bin/env sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Placeholder pre-commit hook — add linting or tests here
+echo "husky pre-commit placeholder — add linting checks as needed"
